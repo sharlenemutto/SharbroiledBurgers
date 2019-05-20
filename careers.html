@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>SharbroiledBurgers</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="careers.css">
+</head>
+
+<header><h1>Sharbroiled Burgers</h1></header>
+
+<nav>
+    <b>
+        <a href="index.html">Home</a> &nbsp; 
+        <a href="menu2.html">Menu</a> &nbsp;
+        <a href="specials.html">Specials</a> &nbsp;
+        <a href="story.html">Our Story</a> &nbsp;
+        <a href="contact.html">Contact</a> &nbsp;
+        <a href="careers.html">Careers</a> &nbsp;
+    </b>
+</nav>
+
+</body>
+    <h2>Careers at Sharbroiled Burgers</h2>
+
+    <p>Required fields are marked with an asterisk *</p>
+    
+    <form method="post" action="http://webdevbasics.net/scripts/pacific.php">
+    <label for="myFName">* First Name:</label>
+    <input type="text" id="myFName" name="myFName" size="10" required="required">
+    <label for="myLName">* Last Name: </label>
+    <input type="text" id="myLName" name="myLName" size="10" required="required" >
+    <label for="e-mail">* E-mail:</label>
+    <input type="email" id="email" name="email" size="10" required="required">
+    <label for="phoneNo">* Phone:</label>
+    <input type="tel" id="phoneNo" name="phoneNo" maxlength="12" size="10" required=required>
+    <label for="position">Position:</label>
+    
+    <select id="position" name="position">
+        <option value="cashier">Cashier</option>
+        <option value="waiter">Waiter</option>
+        <option value="manager">Manager</option>
+        <option value="webManger">Website Manager</option>
+        <option value="prepCook">Prep Cook</option>
+        <option value="janitor">Janitor</option>
+        <option value="scManager">Supply Chain Manager</option>
+        <option value="Marketing">Marketing</option>
+    </select>
+    <fieldset>
+    <legend for="Resume"> * Resume</legend>
+    <h3>Resume Text</h3>
+    <textarea name="Resume" id="Resume" cols="100" rows="20"></textarea>
+    <br>
+    <label for="upload">Upload: </label>
+    <input type="text" id="upload" name="upload" cols=30 required="required">
+    <input type="radio" id=".docx" name="ResumeFormat" value=".docx" /><b>.docx</b>
+    <input type="radio" id="pdf" name="ResumeFormat" value=".pdf" /><strong>.pdf</strong>
+    <input type="radio" id="LinkedIn" name="ResumeFormot" value="LinkedIn" /><strong>LinkedIn</strong>
+    </fieldset>
+    
+    <label for="coverLetter">Cover Letter:</label>
+    <textarea id="coverLetter" name="coverLetter" cols="30" rows="10"></textarea>
+    <input type="submit" value="Submit"><input type="reset" value="Reset">
+    
+</body>
